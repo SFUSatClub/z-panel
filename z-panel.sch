@@ -297,4 +297,6 @@ Connection ~ 1825 4000
 Wire Wire Line
 	1750 4250 1825 4250
 Connection ~ 1825 4250
+Text Notes 5275 1975 0    60   ~ 0
+50ohm transmission line\nEr 3.96\nTanD 0.02\nRho 1.72e-08\nH 0.8\nT 0.035\nmu 1\ntrack width 1.11538\ntrack clearance 0.2
 $EndSCHEMATC
