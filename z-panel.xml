@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/tobi/Cubesat/z-panel/z-panel.sch</source>
+    <date>Tue 20 Mar 2018 07:42:28 PM PDT</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>z-panel.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sun_sensor_1/" tstamps="/5A927253/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sun_Sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Sun_sensor_2/" tstamps="/5A9279CE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sun_Sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Sun_sensor_3/" tstamps="/5A9312AE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sun_Sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Sun_sensor_4/" tstamps="/5A9312B2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sun_Sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>PC104PTH</value>
+      <footprint>SFUSat:PC104PTH</footprint>
+      <libsource lib="SFUSat" part="PC104PTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A926D1D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>PC104PTH</value>
+      <footprint>SFUSat:PC104PTH</footprint>
+      <libsource lib="SFUSat" part="PC104PTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A926E74</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>PC104PTH</value>
+      <footprint>SFUSat:PC104PTH</footprint>
+      <libsource lib="SFUSat" part="PC104PTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A926EB9</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>PC104PTH</value>
+      <footprint>SFUSat:PC104PTH</footprint>
+      <libsource lib="SFUSat" part="PC104PTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A926EF3</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>GPS_ANTENNA</value>
+      <footprint>SFUSat:GPS_ANT_4mm</footprint>
+      <datasheet>http://www.taoglas.com/wp-content/uploads/2015/04/GP.1575.25.4.A.02.pdf</datasheet>
+      <fields>
+        <field name="Digikey">931-1015-ND</field>
+      </fields>
+      <libsource lib="SFUSat" part="GPS_ANTENNA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A926FA1</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>SFUSat-res:R_0402</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200, Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.015" (0.37mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">AC0402JR-070RL</field>
+        <field name="Manufacturer Standard Lead Time 1">17 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">0 Ohms</field>
+        <field name="Series">AC</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">311-0.0LBCT-ND</field>
+        <field name="Temperature Coefficient">-</field>
+        <field name="Tolerance">Jumper</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_0R0_0%_0.063W_0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA4A71C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0R</value>
+      <footprint>SFUSat-res:R_0402</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200, Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.015" (0.37mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">AC0402JR-070RL</field>
+        <field name="Manufacturer Standard Lead Time 1">17 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">0 Ohms</field>
+        <field name="Series">AC</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">311-0.0LBCT-ND</field>
+        <field name="Temperature Coefficient">-</field>
+        <field name="Tolerance">Jumper</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_0R0_0%_0.063W_0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA4A980</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0R</value>
+      <footprint>SFUSat-res:R_0402</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200, Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.015" (0.37mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">AC0402JR-070RL</field>
+        <field name="Manufacturer Standard Lead Time 1">17 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">0 Ohms</field>
+        <field name="Series">AC</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">311-0.0LBCT-ND</field>
+        <field name="Temperature Coefficient">-</field>
+        <field name="Tolerance">Jumper</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_0R0_0%_0.063W_0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA4AA17</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>0R</value>
+      <footprint>SFUSat-res:R_0402</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200, Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.015" (0.37mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">AC0402JR-070RL</field>
+        <field name="Manufacturer Standard Lead Time 1">17 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">0 Ohms</field>
+        <field name="Series">AC</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">311-0.0LBCT-ND</field>
+        <field name="Temperature Coefficient">-</field>
+        <field name="Tolerance">Jumper</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_0R0_0%_0.063W_0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA4AAAF</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>0R</value>
+      <footprint>SFUSat-res:R_0402</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200, Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.015" (0.37mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">AC0402JR-070RL</field>
+        <field name="Manufacturer Standard Lead Time 1">17 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">0 Ohms</field>
+        <field name="Series">AC</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">311-0.0LBCT-ND</field>
+        <field name="Temperature Coefficient">-</field>
+        <field name="Tolerance">Jumper</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_0R0_0%_0.063W_0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA4BBEF</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0R</value>
+      <footprint>SFUSat-res:R_0402</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200, Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.015" (0.37mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">AC0402JR-070RL</field>
+        <field name="Manufacturer Standard Lead Time 1">17 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">0 Ohms</field>
+        <field name="Series">AC</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">311-0.0LBCT-ND</field>
+        <field name="Temperature Coefficient">-</field>
+        <field name="Tolerance">Jumper</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_0R0_0%_0.063W_0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA4BC0B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>SFUSat-res:R_0402</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200, Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.015" (0.37mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">AC0402JR-070RL</field>
+        <field name="Manufacturer Standard Lead Time 1">17 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">0 Ohms</field>
+        <field name="Series">AC</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">311-0.0LBCT-ND</field>
+        <field name="Temperature Coefficient">-</field>
+        <field name="Tolerance">Jumper</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_0R0_0%_0.063W_0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA4BC27</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>0R</value>
+      <footprint>SFUSat-res:R_0402</footprint>
+      <fields>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200, Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.015" (0.37mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">AC0402JR-070RL</field>
+        <field name="Manufacturer Standard Lead Time 1">17 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">0 Ohms</field>
+        <field name="Series">AC</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">311-0.0LBCT-ND</field>
+        <field name="Temperature Coefficient">-</field>
+        <field name="Tolerance">Jumper</field>
+      </fields>
+      <libsource lib="SFUSat-res" part="R_0R0_0%_0.063W_0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA4BC43</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MOLEX_FFC-14</value>
+      <footprint>SFUSat:MOLEX_FFC-14</footprint>
+      <datasheet>http://www.molex.com/pdm_docs/sd/5034801400_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey">WM1442CT-ND</field>
+      </fields>
+      <libsource lib="SFUSat" part="MOLEX_FFC-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A926C48</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>TEST_1P</value>
+      <footprint>SFUSat:vis-0.6mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AADB0A1</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>TEST_1P</value>
+      <footprint>SFUSat:via-0.97mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AADB396</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>TEST_1P</value>
+      <footprint>SFUSat:via-0.97mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AADB7C0</tstamp>
+    </comp>
+    <comp ref="D100">
+      <value>D_Photo</value>
+      <footprint>SFUSat:SFH2430</footprint>
+      <datasheet>https://www.mouser.com/ds/2/311/SFH%202430,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant-335643.pdf</datasheet>
+      <fields>
+        <field name="Digikey">475-2579-1-ND</field>
+        <field name="PN">SFH 2430-Z</field>
+      </fields>
+      <libsource lib="device" part="D_Photo"/>
+      <sheetpath names="/Sun_sensor_1/" tstamps="/5A927253/"/>
+      <tstamp>5A76FB31</tstamp>
+    </comp>
+    <comp ref="U100">
+      <value>OPA380</value>
+      <footprint>SFUSat:VSSOP_8</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa380.pdf</datasheet>
+      <fields>
+        <field name="Digikey">296-16860-1-ND</field>
+      </fields>
+      <libsource lib="SFUSat" part="OPA380"/>
+      <sheetpath names="/Sun_sensor_1/" tstamps="/5A927253/"/>
+      <tstamp>5A76FB38</tstamp>
+    </comp>
+    <comp ref="R100">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sun_sensor_1/" tstamps="/5A927253/"/>
+      <tstamp>5A76FD19</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sun_sensor_1/" tstamps="/5A927253/"/>
+      <tstamp>5A76FDEE</tstamp>
+    </comp>
+    <comp ref="C100">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sun_sensor_1/" tstamps="/5A927253/"/>
+      <tstamp>5A76FE15</tstamp>
+    </comp>
+    <comp ref="D110">
+      <value>D_Photo</value>
+      <footprint>SFUSat:SFH2430</footprint>
+      <datasheet>https://www.mouser.com/ds/2/311/SFH%202430,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant-335643.pdf</datasheet>
+      <fields>
+        <field name="Digikey">475-2579-1-ND</field>
+        <field name="PN">SFH 2430-Z</field>
+      </fields>
+      <libsource lib="device" part="D_Photo"/>
+      <sheetpath names="/Sun_sensor_2/" tstamps="/5A9279CE/"/>
+      <tstamp>5A76FB31</tstamp>
+    </comp>
+    <comp ref="U110">
+      <value>OPA380</value>
+      <footprint>SFUSat:VSSOP_8</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa380.pdf</datasheet>
+      <fields>
+        <field name="Digikey">296-16860-1-ND</field>
+      </fields>
+      <libsource lib="SFUSat" part="OPA380"/>
+      <sheetpath names="/Sun_sensor_2/" tstamps="/5A9279CE/"/>
+      <tstamp>5A76FB38</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sun_sensor_2/" tstamps="/5A9279CE/"/>
+      <tstamp>5A76FD19</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sun_sensor_2/" tstamps="/5A9279CE/"/>
+      <tstamp>5A76FDEE</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sun_sensor_2/" tstamps="/5A9279CE/"/>
+      <tstamp>5A76FE15</tstamp>
+    </comp>
+    <comp ref="D120">
+      <value>D_Photo</value>
+      <footprint>SFUSat:SFH2430</footprint>
+      <datasheet>https://www.mouser.com/ds/2/311/SFH%202430,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant-335643.pdf</datasheet>
+      <fields>
+        <field name="Digikey">475-2579-1-ND</field>
+        <field name="PN">SFH 2430-Z</field>
+      </fields>
+      <libsource lib="device" part="D_Photo"/>
+      <sheetpath names="/Sun_sensor_3/" tstamps="/5A9312AE/"/>
+      <tstamp>5A76FB31</tstamp>
+    </comp>
+    <comp ref="U120">
+      <value>OPA380</value>
+      <footprint>SFUSat:VSSOP_8</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa380.pdf</datasheet>
+      <fields>
+        <field name="Digikey">296-16860-1-ND</field>
+      </fields>
+      <libsource lib="SFUSat" part="OPA380"/>
+      <sheetpath names="/Sun_sensor_3/" tstamps="/5A9312AE/"/>
+      <tstamp>5A76FB38</tstamp>
+    </comp>
+    <comp ref="R120">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sun_sensor_3/" tstamps="/5A9312AE/"/>
+      <tstamp>5A76FD19</tstamp>
+    </comp>
+    <comp ref="R121">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sun_sensor_3/" tstamps="/5A9312AE/"/>
+      <tstamp>5A76FDEE</tstamp>
+    </comp>
+    <comp ref="C120">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sun_sensor_3/" tstamps="/5A9312AE/"/>
+      <tstamp>5A76FE15</tstamp>
+    </comp>
+    <comp ref="D130">
+      <value>D_Photo</value>
+      <footprint>SFUSat:SFH2430</footprint>
+      <datasheet>https://www.mouser.com/ds/2/311/SFH%202430,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant-335643.pdf</datasheet>
+      <fields>
+        <field name="Digikey">475-2579-1-ND</field>
+        <field name="PN">SFH 2430-Z</field>
+      </fields>
+      <libsource lib="device" part="D_Photo"/>
+      <sheetpath names="/Sun_sensor_4/" tstamps="/5A9312B2/"/>
+      <tstamp>5A76FB31</tstamp>
+    </comp>
+    <comp ref="U130">
+      <value>OPA380</value>
+      <footprint>SFUSat:VSSOP_8</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa380.pdf</datasheet>
+      <fields>
+        <field name="Digikey">296-16860-1-ND</field>
+      </fields>
+      <libsource lib="SFUSat" part="OPA380"/>
+      <sheetpath names="/Sun_sensor_4/" tstamps="/5A9312B2/"/>
+      <tstamp>5A76FB38</tstamp>
+    </comp>
+    <comp ref="R130">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sun_sensor_4/" tstamps="/5A9312B2/"/>
+      <tstamp>5A76FD19</tstamp>
+    </comp>
+    <comp ref="R131">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sun_sensor_4/" tstamps="/5A9312B2/"/>
+      <tstamp>5A76FDEE</tstamp>
+    </comp>
+    <comp ref="C130">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sun_sensor_4/" tstamps="/5A9312B2/"/>
+      <tstamp>5A76FE15</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Photo">
+      <description>Photodiode</description>
+      <footprints>
+        <fp>*photodiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Photo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat" part="GPS_ANTENNA">
+      <description>Generic Single Port GPS antenna</description>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">GPS_ANTENNA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RF" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat" part="MOLEX_FFC-14">
+      <footprints>
+        <fp>MOLEX_FFC-14</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MOLEX_FFC-14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+        <pin num="6" name="~" type="BiDi"/>
+        <pin num="7" name="~" type="BiDi"/>
+        <pin num="8" name="~" type="BiDi"/>
+        <pin num="9" name="~" type="BiDi"/>
+        <pin num="10" name="~" type="BiDi"/>
+        <pin num="11" name="~" type="BiDi"/>
+        <pin num="12" name="~" type="BiDi"/>
+        <pin num="13" name="~" type="BiDi"/>
+        <pin num="14" name="~" type="BiDi"/>
+        <pin num="SHLD" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat" part="OPA380">
+      <footprints>
+        <fp>VSSOP_8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA380</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat" part="PC104PTH">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PC104PTH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SFUSat-res" part="R_0R0_0%_0.063W_0402">
+      <description>RES SMD 0 OHM JUMPER 1/16W 0402</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0R0_0%_0.063W_0402</field>
+        <field name="Footprint">SFUSat-res:R_0402</field>
+        <field name="Categories">Resistors - Chip Resistor - Surface Mount</field>
+        <field name="Composition">Thick Film</field>
+        <field name="Failure Rate">-</field>
+        <field name="Features">Automotive AEC-Q200, Moisture Resistant</field>
+        <field name="Height - Seated (Max)">0.015" (0.37mm)</field>
+        <field name="Lead Free Status / RoHS Status">Lead free / RoHS Compliant</field>
+        <field name="Manufacturer 1">Yageo</field>
+        <field name="Manufacturer Part Number 1">AC0402JR-070RL</field>
+        <field name="Manufacturer Standard Lead Time 1">17 Weeks</field>
+        <field name="Number of Terminations">2</field>
+        <field name="Operating Temperature">-55�C ~ 155�C</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Part Status">Active</field>
+        <field name="Power (Watts)">0.063W, 1/16W</field>
+        <field name="Resistance">0 Ohms</field>
+        <field name="Series">AC</field>
+        <field name="Size / Dimension">0.039" L x 0.020" W (1.00mm x 0.50mm)</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Device Package">0402</field>
+        <field name="Supplier Part Number 1">311-0.0LBCT-ND</field>
+        <field name="Temperature Coefficient">-</field>
+        <field name="Tolerance">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="SFUSat-res">
+      <uri>/home/tobi/Cubesat/z-panel/KiCad-Lib/SFUSat-res.lib</uri>
+    </library>
+    <library logical="SFUSat">
+      <uri>/home/tobi/Cubesat/z-panel/KiCad-Lib/SFUSat.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/D1">
+      <node ref="C100" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R101" pin="1"/>
+      <node ref="U100" pin="6"/>
+      <node ref="R100" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="2" name="/D2">
+      <node ref="C110" pin="1"/>
+      <node ref="R111" pin="1"/>
+      <node ref="R110" pin="1"/>
+      <node ref="U110" pin="6"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="3" name="/D3">
+      <node ref="C120" pin="1"/>
+      <node ref="R120" pin="1"/>
+      <node ref="U120" pin="6"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R121" pin="1"/>
+    </net>
+    <net code="4" name="/D4">
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C130" pin="1"/>
+      <node ref="R131" pin="1"/>
+      <node ref="R130" pin="1"/>
+      <node ref="U130" pin="6"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="R101" pin="2"/>
+      <node ref="D100" pin="2"/>
+      <node ref="U100" pin="3"/>
+      <node ref="U100" pin="4"/>
+      <node ref="D120" pin="2"/>
+      <node ref="R111" pin="2"/>
+      <node ref="U120" pin="3"/>
+      <node ref="U130" pin="3"/>
+      <node ref="U130" pin="4"/>
+      <node ref="R121" pin="2"/>
+      <node ref="D130" pin="2"/>
+      <node ref="R131" pin="2"/>
+      <node ref="U120" pin="4"/>
+      <node ref="D110" pin="2"/>
+      <node ref="U110" pin="3"/>
+      <node ref="U110" pin="4"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J1" pin="SHLD"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J1" pin="13"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="6" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="10" name="/D_A">
+      <node ref="J1" pin="6"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="11" name="/D_B">
+      <node ref="J1" pin="9"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad11)">
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="15" name="/3V3">
+      <node ref="J1" pin="1"/>
+      <node ref="U120" pin="7"/>
+      <node ref="U130" pin="7"/>
+      <node ref="J1" pin="14"/>
+      <node ref="U100" pin="7"/>
+      <node ref="U110" pin="7"/>
+    </net>
+    <net code="16" name="Net-(C100-Pad2)">
+      <node ref="D100" pin="1"/>
+      <node ref="U100" pin="2"/>
+      <node ref="C100" pin="2"/>
+      <node ref="R100" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C110-Pad2)">
+      <node ref="C110" pin="2"/>
+      <node ref="R110" pin="2"/>
+      <node ref="U110" pin="2"/>
+      <node ref="D110" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C120-Pad2)">
+      <node ref="D120" pin="1"/>
+      <node ref="C120" pin="2"/>
+      <node ref="U120" pin="2"/>
+      <node ref="R120" pin="2"/>
+    </net>
+    <net code="19" name="Net-(C130-Pad2)">
+      <node ref="R130" pin="2"/>
+      <node ref="C130" pin="2"/>
+      <node ref="U130" pin="2"/>
+      <node ref="D130" pin="1"/>
+    </net>
+  </nets>
+</export>
